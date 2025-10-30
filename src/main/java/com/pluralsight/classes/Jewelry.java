@@ -20,4 +20,10 @@ public class Jewelry extends FixedAsset {
     public double getValue() {
         return karat * 1000;
     }
+
+    @Override
+    public String toString() {
+        return getName() +
+                " karat=" + karat;
+    }
 }
