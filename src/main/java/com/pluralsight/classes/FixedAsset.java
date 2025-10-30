@@ -23,7 +23,5 @@ public abstract class FixedAsset implements Valuable {
         this.value = value;
     }
 
-    public double getValue() {
-        return value;
-    }
+    public abstract double getValue();
 }
