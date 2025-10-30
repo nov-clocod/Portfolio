@@ -19,12 +19,11 @@ public abstract class FixedAsset implements Valuable {
         this.name = name;
     }
 
-    @Override
-    public double getValue() {
-        return value;
-    }
-
     public void setValue(double value) {
         this.value = value;
+    }
+
+    public double getValue() {
+        return value;
     }
 }
